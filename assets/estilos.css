@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+    margin    : 0;
+    padding   : 0;
+
+
+}
+
+body {
+    align-items     : center;
+    background-color: #A4F285;
+    display         : flex;
+    flex-wrap       : wrap;
+    justify-content : center;
+    padding         : 10px;
+    flex-direction  : column;
+}
+
+.form {
+    background-color: #7D9773;
+    align-items     : center;
+    border          : 10px solid #626222;
+    border-radius   : 8px;
+    display         : flex;
+    flex-direction  : column;
+
+    width          : 250px;
+    height         : 200px;
+    justify-content: space-around;
+    margin         : 0 auto;
+    padding        : 25px
+}
+
+#idContainer {
+    color      : #920303;
+    font-weight: bolder;
+    text-align : center;
+    width      : 100%
+}
+
+.form input {
+    font-size : 20px;
+    height    : 30%;
+    text-align: center;
+    width     : 60%
+}
+
+.Container {
+    align-items    : center;
+    display        : flex;
+    justify-content: center;
+    margin         : 0 auto
+}
+
+.Container span {
+    color      : #920303;
+    font-weight: bolder;
+    text-align : center;
+    width      : 50%;
+    font-size  : 20px
+}
+
+.card {
+    background-color: #7D9773;
+    border          : 10px solid #626222;
+    border-radius   : 15px;
+    align-items     : center;
+    display         : flex;
+    flex-direction  : column;
+    justify-content : center;
+    width           : 100%;
+    margin-bottom   : 10px
+}
+
+.card h2 {
+    font-family: fantasy;
+    font-size  : 35px;
+
+}
+
+.card p {
+    font-family: fantasy;
+}
+
+.card img {
+    opacity: 0.4;
+    height : 200px;
+    width  : 100px
+}
+
+.ClassContainer {
+    font-family   : fantasy;
+    display       : flex;
+    flex-direction: row;
+    padding       : 20px;
+    text-align    : center
+}
+
+
+.caja {
+    background     : #626222;
+    color          : #fff;
+    display        : flex;
+    font-size      : 10px;
+    padding        : 10px 25px;
+    text-decoration: none;
+    transform      : skew(-10deg);
+    border-radius  : 5px;
+    transition     : 0.5s
+}
+
+.caja:focus {
+    outline: none
+}
+
+.caja:hover {
+    box-shadow: 6px 6px #0001;
+    transition: .5s
+}
+
+
+@keyframes {
+    0% {
+        fill: #fff
+    }
+
+    50% {
+        fill: #fbc638
+    }
+
+    to {
+        fill: #fff
+    }
+}
